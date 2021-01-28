@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+            content="width-device-width,
+                    initial-scale=1.0" />
+        <title>Countdown Timer</title>
+        <link rel="stylesheet" href="style.css" >
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+    <div class="countdown" style="display: flex;flex-direction: column;">
+        <h1>Until New Years Eve</h1>
+        
+        <div class="countdown-container">
+            <div class="days-c time-c" >
+                <p class="big-text" id="days">0</p>
+                <span>days</span>
+            </div>
+            <div class="hours-c time-c">
+                <p class="big-text" id="hours">0</p>
+                <span>hours</span>
+            </div>
+            <div class="mins-c time-c">
+                <p class="big-text" id="mins">0</p>
+                <span>minutes</span>
+            </div>
+            <div class="seconds-c time-c">
+                <p class="big-text" id="seconds">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+
+        <p id="percentage_text"></p>
+        <div class="meter">
+            <span  id="percentage"></span>
+        </div>
+
+        <div class="day-details">
+            <p id="current-date"></p>
+            <span id="week-day"></span>
+        </div>
+
+        <p id="current-time" style="font-weight: bolder;"></p>
+
+    </div>
+    </body>
+</html>
